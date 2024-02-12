@@ -1,5 +1,5 @@
 
-# Festival de l'Innovation Artistique
+# IX Symposium
 
 ## Optimisation Web - Projet app d'un festival d'art numérique
 
