@@ -1,3 +1,47 @@
+:root {
+    --couleur-vert-palee: #EAFEF2;
+    --couleur-vert-pale: #95D5B2;
+    --couleur-vert: #52B788;
+    --couleur-vert-fonce: #2D6A4F;
+    --couleur-vert-foncee: #081C15;
+    --noir: #000000;
+  }
+
+  @font-face {
+    font-family: 'Inter';
+    src: url('../assets/Inter/Inter-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Inter';
+    src: url('../assets/Inter/Inter-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Inter';
+    src: url('../assets/Inter/Inter-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Miriam Fixed';
+    src: url('../assets/Miriam/mriamc.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+/*--------------------------------------------------------- 
+# Styles Généraux 
+---------------------------------------------------------*/
 nav {
-    background-color: red;
+    background-color: var(--couleur-vert-palee);
+    color: black;
 }
+
+/*---------------------------------------------------------- 
+# Section Hero  
+----------------------------------------------------------*/
